@@ -1,2 +1,2 @@
 # HMM_sbi
-Repo for testing out Simulation Based Inference (sbi) with Hidden Markov Models (HMM)
+Repo for testing out Simulation Based Inference (sbi) with Hidden Markov Models (HMM). Classically, HMMs do not work well with Bayesian methods because of the problem of label-switching. The latent states that determine the emission distributions of each feature at each time point can be permuted and result in identical likelihood estimations. This repo is a quick test to see if label-switching is less of a practical issue with simulation-based inference. The notebook in this repo guides you through a quick simulation of an HMM dataset, and a few `sbi` fits of posterior distributions for parameters of this HMM-generated dataset.
